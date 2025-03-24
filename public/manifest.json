@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "element2PDF",
+  "version": "1.0",
+  "description": "Pick web elements with one click and easily convert them to PDF",
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "permissions": ["contextMenus", "storage", "tabs", "tts", "notifications"],
+  "action": {
+    "default_title": "Draw Box and Export to PDF"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["static/js/content.js"],
+      "type": "module"
+    }
+  ],
+  "default_locale": "zh_CN"
+}
