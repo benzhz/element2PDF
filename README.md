@@ -47,6 +47,7 @@ pnpm run build
 1. Press `Ctrl+Q` to activate element selection mode.  
 2. The content within the red box on the page is the selected element. Click anywhere inside the red box.  
 3. A pagination prompt will appear. Choose your options to start exporting the PDF.
+![](https://github.com/benzhz/element2PDF/blob/main/public/images/use.gif)  
 
 ![](https://cdn.nlark.com/yuque/0/2025/gif/38711469/1743580353533-7d11d95a-4b8d-4495-a990-3bd28e50c92f.gif)
 
